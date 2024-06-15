@@ -13,7 +13,7 @@ on: push
             - name: checkout testing
               uses: actions/checkout@v2
             - name: list file
-              run: ls
+              run: ls-ltra
 
             - name:  Read file
               run: cat README.md 
