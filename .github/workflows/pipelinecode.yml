@@ -10,7 +10,8 @@ on: push
             steps:
             - name: welcome message
               run: echo "my first github Action Job"
-
+            - name: checkout testing
+              uses: actions/checkout@v2
             - name: list file
               run: ls
 
